@@ -1,0 +1,21 @@
+{
+  "name": "gulp-icons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp"
+  },
+  "engine": "node >= 7.6.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^3.1.0",
+    "gulp.spritesmith": "^6.4.0",
+    "node-sass": "^4.5.2",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "fs-promise": "^2.0.2"
+  }
+}

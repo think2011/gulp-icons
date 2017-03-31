@@ -1,0 +1,171 @@
+/* rem */
+$designWidth: 750;
+@function px2rem($px) {
+  @return $px*320/$designWidth/20 + rem;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-types-商品优惠券 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-475) px2rem(-95);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-对对碰 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-285) px2rem(-193);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-店铺优惠券 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-190) px2rem(-0);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-手机专享价 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-0) px2rem(-98);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-手机流量包 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-95) px2rem(-98);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-折扣商品 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-190) px2rem(-98);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-抽奖 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-285) px2rem(-0);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-拆礼盒 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-285) px2rem(-95);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-拉人有奖 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-0) px2rem(-193);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-拼图 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-95) px2rem(-193);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-支付宝红包 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-190) px2rem(-193);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-收藏有礼 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-95) px2rem(-0);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-淘话费 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-380) px2rem(-0);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-淘金币 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-380) px2rem(-95);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-猜价格 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-380) px2rem(-190);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-积分签到 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-0) px2rem(-288);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-签到有礼 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-95) px2rem(-288);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-粉丝专享价 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-190) px2rem(-288);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-自定义商品 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-285) px2rem(-288);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-超强记忆 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-380) px2rem(-288);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-问券调查 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-475) px2rem(-0);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-闹元宵 {
+  width: px2rem(80);
+  height: px2rem(83);
+  background: url(icon-types.png) no-repeat px2rem(-0) px2rem(-0);
+  background-size: px2rem(555) px2rem(368);
+}
+
+.icon-types-领取优惠券 {
+  width: px2rem(80);
+  height: px2rem(80);
+  background: url(icon-types.png) no-repeat px2rem(-475) px2rem(-190);
+  background-size: px2rem(555) px2rem(368);
+}
+                            

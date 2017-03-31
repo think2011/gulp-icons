@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* rem */
+.icon {
+  display: inline-block; }
+
+.icon-index-做任务 {
+  width: 2.13333rem;
+  height: 2.13333rem;
+  background: url(icon-index.png) no-repeat 0rem 0rem;
+  background-size: 5.93067rem 4.58667rem; }
+
+.icon-index-我 {
+  width: 2.13333rem;
+  height: 2.13333rem;
+  background: url(icon-index.png) no-repeat -2.45333rem 0rem;
+  background-size: 5.93067rem 4.58667rem; }
+
+.icon-index-换奖品 {
+  width: 2.13333rem;
+  height: 2.13333rem;
+  background: url(icon-index.png) no-repeat 0rem -2.45333rem;
+  background-size: 5.93067rem 4.58667rem; }
+
+.icon-index-排行榜 {
+  width: 2.13333rem;
+  height: 2.13333rem;
+  background: url(icon-index.png) no-repeat -2.45333rem -2.45333rem;
+  background-size: 5.93067rem 4.58667rem; }
+
+.icon-index-进店 {
+  width: 1.024rem;
+  height: 1.024rem;
+  background: url(icon-index.png) no-repeat -4.90667rem 0rem;
+  background-size: 5.93067rem 4.58667rem; }

@@ -1,0 +1,45 @@
+/* rem */
+$designWidth: 750;
+@function px2rem($px) {
+  @return $px*320/$designWidth/20 + rem;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-index-做任务 {
+  width: px2rem(100);
+  height: px2rem(100);
+  background: url(icon-index.png) no-repeat px2rem(-0) px2rem(-0);
+  background-size: px2rem(278) px2rem(215);
+}
+
+.icon-index-我 {
+  width: px2rem(100);
+  height: px2rem(100);
+  background: url(icon-index.png) no-repeat px2rem(-115) px2rem(-0);
+  background-size: px2rem(278) px2rem(215);
+}
+
+.icon-index-换奖品 {
+  width: px2rem(100);
+  height: px2rem(100);
+  background: url(icon-index.png) no-repeat px2rem(-0) px2rem(-115);
+  background-size: px2rem(278) px2rem(215);
+}
+
+.icon-index-排行榜 {
+  width: px2rem(100);
+  height: px2rem(100);
+  background: url(icon-index.png) no-repeat px2rem(-115) px2rem(-115);
+  background-size: px2rem(278) px2rem(215);
+}
+
+.icon-index-进店 {
+  width: px2rem(48);
+  height: px2rem(48);
+  background: url(icon-index.png) no-repeat px2rem(-230) px2rem(-0);
+  background-size: px2rem(278) px2rem(215);
+}
+                            

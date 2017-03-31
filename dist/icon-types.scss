@@ -1,171 +1,472 @@
+
 /* rem */
 $designWidth: 750;
-@function px2rem($px) {
+@function _px($px) {
   @return $px*320/$designWidth/20 + rem;
 }
 
 .icon {
   display: inline-block;
+  position: relative;
 }
-
+                        
 .icon-types-商品优惠券 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-475) px2rem(-95);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-47500) _px(-9500);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-对对碰 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-285) px2rem(-193);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-28500) _px(-19300);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-店铺优惠券 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-190) px2rem(-0);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-19000) _px(-0);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-手机专享价 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-0) px2rem(-98);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-0) _px(-9800);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-手机流量包 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-95) px2rem(-98);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-9500) _px(-9800);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-折扣商品 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-190) px2rem(-98);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-19000) _px(-9800);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-抽奖 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-285) px2rem(-0);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-28500) _px(-0);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-拆礼盒 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-285) px2rem(-95);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-28500) _px(-9500);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-拉人有奖 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-0) px2rem(-193);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-0) _px(-19300);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-拼图 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-95) px2rem(-193);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-9500) _px(-19300);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-支付宝红包 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-190) px2rem(-193);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-19000) _px(-19300);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-收藏有礼 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-95) px2rem(-0);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-9500) _px(-0);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-淘话费 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-380) px2rem(-0);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-38000) _px(-0);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-淘金币 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-380) px2rem(-95);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-38000) _px(-9500);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-猜价格 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-380) px2rem(-190);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-38000) _px(-19000);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-积分签到 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-0) px2rem(-288);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-0) _px(-28800);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-签到有礼 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-95) px2rem(-288);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-9500) _px(-28800);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-粉丝专享价 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-190) px2rem(-288);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-19000) _px(-28800);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-自定义商品 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-285) px2rem(-288);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-28500) _px(-28800);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-超强记忆 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-380) px2rem(-288);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-38000) _px(-28800);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-问券调查 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-475) px2rem(-0);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(80);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-47500) _px(-0);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-闹元宵 {
-  width: px2rem(80);
-  height: px2rem(83);
-  background: url(icon-types.png) no-repeat px2rem(-0) px2rem(-0);
-  background-size: px2rem(555) px2rem(368);
-}
+  width: _px(80);
+  height: _px(83);
 
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-0) _px(-0);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
+}
+                            
 .icon-types-领取优惠券 {
-  width: px2rem(80);
-  height: px2rem(80);
-  background: url(icon-types.png) no-repeat px2rem(-475) px2rem(-190);
-  background-size: px2rem(555) px2rem(368);
+  width: _px(80);
+  height: _px(80);
+
+  &:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat _px(-47500) _px(-19000);
+    background-size: _px(55500) _px(36800);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.01);
+    transform-origin: 0 0;
+    transform: scale(.01);
+  }
 }
                             

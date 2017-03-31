@@ -1,34 +1,90 @@
 @charset "UTF-8";
 /* rem */
 .icon {
-  display: inline-block; }
+  display: inline-block;
+  position: relative; }
 
 .icon-index-做任务 {
   width: 2.13333rem;
-  height: 2.13333rem;
-  background: url(icon-index.png) no-repeat 0rem 0rem;
-  background-size: 5.93067rem 4.58667rem; }
+  height: 2.13333rem; }
+  .icon-index-做任务:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat 0rem 0rem;
+    background-size: 593.06667rem 458.66667rem;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(0.01);
+    transform-origin: 0 0;
+    transform: scale(0.01); }
 
 .icon-index-我 {
   width: 2.13333rem;
-  height: 2.13333rem;
-  background: url(icon-index.png) no-repeat -2.45333rem 0rem;
-  background-size: 5.93067rem 4.58667rem; }
+  height: 2.13333rem; }
+  .icon-index-我:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat -245.33333rem 0rem;
+    background-size: 593.06667rem 458.66667rem;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(0.01);
+    transform-origin: 0 0;
+    transform: scale(0.01); }
 
 .icon-index-换奖品 {
   width: 2.13333rem;
-  height: 2.13333rem;
-  background: url(icon-index.png) no-repeat 0rem -2.45333rem;
-  background-size: 5.93067rem 4.58667rem; }
+  height: 2.13333rem; }
+  .icon-index-换奖品:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat 0rem -245.33333rem;
+    background-size: 593.06667rem 458.66667rem;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(0.01);
+    transform-origin: 0 0;
+    transform: scale(0.01); }
 
 .icon-index-排行榜 {
   width: 2.13333rem;
-  height: 2.13333rem;
-  background: url(icon-index.png) no-repeat -2.45333rem -2.45333rem;
-  background-size: 5.93067rem 4.58667rem; }
+  height: 2.13333rem; }
+  .icon-index-排行榜:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat -245.33333rem -245.33333rem;
+    background-size: 593.06667rem 458.66667rem;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(0.01);
+    transform-origin: 0 0;
+    transform: scale(0.01); }
 
 .icon-index-进店 {
   width: 1.024rem;
-  height: 1.024rem;
-  background: url(icon-index.png) no-repeat -4.90667rem 0rem;
-  background-size: 5.93067rem 4.58667rem; }
+  height: 1.024rem; }
+  .icon-index-进店:after {
+    content: '';
+    width: 10000%;
+    height: 10000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(icon-index.png) no-repeat -490.66667rem 0rem;
+    background-size: 593.06667rem 458.66667rem;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(0.01);
+    transform-origin: 0 0;
+    transform: scale(0.01); }

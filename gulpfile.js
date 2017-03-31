@@ -54,7 +54,7 @@ $designWidth: 750;
     position: absolute;
     left: 0;
     top: 0;
-    background: url(icon-index.png) no-repeat _px(-${item.x * 100}) _px(-${item.y * 100});
+    background: url(${item.escaped_image}) no-repeat _px(-${item.x * 100}) _px(-${item.y * 100});
     background-size: _px(${item.total_width * 100}) _px(${item.total_height * 100});
     -webkit-transform-origin: 0 0;
     -webkit-transform: scale(.01);

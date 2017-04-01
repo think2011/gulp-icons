@@ -1,4 +1,7 @@
 这是关于 [有效解决 css sprite 图片使用 rem 单位边角缺失的问题](http://think2011.net/2017/03/31/css-sprite/) 的实践
+
+![](http://think2011.qiniudn.com/gulp-icons-demo.gif)
+
 ## 依赖
     node >= 7.6.0
 

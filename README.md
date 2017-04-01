@@ -9,3 +9,7 @@
  1. 修改 gulpfile.js 里 icons:sprite task定义的模板
  2. 要合成的图片放在src目录下
  3. `yarn run build`, 然后查看 dist 文件夹
+
+
+## 注意！！
+虽然项目以 gulp- 开头，但是非 gulp 插件，建议直接使用 gulp.spritesmith

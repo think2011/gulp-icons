@@ -16,6 +16,7 @@
     "run-sequence": "^1.2.2"
   },
   "dependencies": {
+    "export-dir": "^0.1.2",
     "fs-promise": "^2.0.2"
   }
 }

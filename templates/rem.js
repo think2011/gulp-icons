@@ -1,10 +1,8 @@
 module.exports = function (name, sprite) {
-    /*
-     * 加大单位的数值解决浏览器对小数解析精度导致图片边角缺失的问题
-     */
-    let prevStr = `
-/* rem */
-$designWidth: 750;
+    let designWidth = 750
+    let prevStr     = `
+/* rem-${designWidth} */
+$designWidth: ${designWidth};
 @function _px($px) {
   @return $px*320/$designWidth/20 + rem;
 }
@@ -13,7 +11,11 @@ $designWidth: 750;
   display: inline-block;
   position: relative;
 }
-                        `
+`
+
+    /*
+     * 加大单位的数值解决浏览器对小数解析精度导致图片边角缺失的问题
+     */
     let cssItem = sprite.sprites.map((item) => {
         return `
 .${name}-${item.name} {

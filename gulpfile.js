@@ -3,6 +3,7 @@ const fsp         = require('fs-promise')
 const $           = require('gulp-load-plugins')()
 const runSequence = require('run-sequence')
 const templates   = require('./templates')
+const template    = process.env.template || 'px'
 
 let staticDir = `.`
 let paths     = {
@@ -10,7 +11,7 @@ let paths     = {
     dist: `${staticDir}/dist`
 }
 
-gulp.task('icons:sprite', async (cb) => {
+gulp.task('icons:sprite', async () => {
     let dirs = await fsp.readdir(paths.src)
     dirs     = dirs.filter((item) => item[0] !== '.')
     dirs.unshift('')
@@ -24,9 +25,9 @@ gulp.task('icons:sprite', async (cb) => {
                 .pipe($.spritesmith({
                     padding: 15,
                     imgName: `${name}.png`,
-                    cssName: `${name}.scss`,
+                    cssName: `${name}-${template}.scss`,
                     cssTemplate(sprite){
-                        return templates.rem(name, sprite)
+                        return templates[template](name, sprite)
                     }
                 }))
                 .pipe(gulp.dest(paths.dist))

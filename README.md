@@ -8,7 +8,7 @@
 ## 使用
  1. 修改 gulpfile.js 里 icons:sprite task定义的模板
  2. 要合成的图片放在src目录下
- 3. `yarn run build`, 然后查看 dist 文件夹
+ 3. `yarn run build:px` 或者 `yarn run build:rem`, 然后查看 dist 文件夹
 
 
 ## 注意！！

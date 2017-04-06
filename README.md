@@ -12,4 +12,4 @@
 
 
 ## 注意！！
-虽然项目以 gulp- 开头，但是非 gulp 插件，建议直接使用 gulp.spritesmith
+虽然项目以 gulp- 开头，但是非 gulp 插件
